@@ -10,6 +10,7 @@ import {
   Route
 } from 'react-router-dom';
 import Prueba from './pages/Prueba';
+import Movilidad from './pages/Movilidad';
 
 
 function App() {
@@ -23,7 +24,7 @@ function App() {
         <Route path="/forgotpassword" element={<ForgotPassword/>}/>
         <Route path="/register" element={<Register/>}/>
         <Route path="/parentesco" element={<Parentesco/>}/>
-        <Route path="/" element={<Prueba/>}/>
+        <Route path="/" element={<Movilidad/>}/>
       </Routes>
     </BrowserRouter>
   );
